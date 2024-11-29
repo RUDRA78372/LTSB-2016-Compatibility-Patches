@@ -9,3 +9,5 @@
 6. Backup your original obs.dll
 7. Move the modified obs.dll from your desktop to your obs installation directory.
 8. Enjoy!
+
+![image](https://github.com/user-attachments/assets/7a6cb71c-4bbb-4c07-a365-2ccb649881fd)
