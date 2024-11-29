@@ -5,12 +5,12 @@ So we need to put a fake kernel32.dll that exports the function for spotify.
 We also need to edit spotify.exe using CFF Explorer so that it uses our own dll instead of kernel32.dll, and so that other dlls in the same directory don't import our dll by mistake.
 
 ## Here is how to do this:
-1. Open Spotify.exe from spotify installation directory using CFF Explorer.
+1. Open Spotify.exe from spotify installation directory (Usually %appdata%\Spotify) using CFF Explorer.
 2. Go to import directory.
 3. Rename the module kernel32.dll to rudranil.dll
 4. Save the file to desktop.
 5. Backup your original Spotify.exe
-6. Move the modified Spotify.exe from your desktop to your obs installation directory.
+6. Move the modified Spotify.exe from your desktop to your spotify installation directory.
 7. Put rudranil.dll in the spotify installation directory.
 8. Enjoy!
 > I have used rudranil.dll replacing kernel32.dll because that's my name and matches 8 character limit of the dll name. You can use any other name if you want.
